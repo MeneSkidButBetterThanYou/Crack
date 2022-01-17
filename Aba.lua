@@ -1,4 +1,4 @@
-_G.Key = "Sowd Is Shit At TS"
+_G.Key = "Unique winning"
 
 do
     local mt = getrawmetatable(game);
@@ -6,7 +6,7 @@ do
     setreadonly(mt, false);
     mt.__newindex = newcclosure(function(self, k, v)
         if (k == 'Text' and v == 'Main') then
-            v = "Sowd Hub Trial"
+            v = "Nut Hub Trial"
         end;
         return oldnidx(self, k, v)
     end);
